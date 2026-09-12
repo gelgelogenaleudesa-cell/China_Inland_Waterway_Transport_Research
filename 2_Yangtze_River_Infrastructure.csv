@@ -1,0 +1,23 @@
+Independent_Variable,Variable_Subcategory,Dependent_Variable_1,Dependent_Variable_2,Dependent_Variable_3,Dependent_Variable_4,Unit_1,Unit_2,Unit_3,Unit_4,Implementation_Year,Status,Data_Source
+Yangtze_River_Shipping_Data_Center,Digital_Infrastructure,Database_Size,Daily_Data_Inflow,Number_of_Data_Types,Real_Time_Capability,Billion_Entries,Entries_Per_Day,Count,Yes_No,2025,Launched_Jan_2025,China_Government_Official
+,,,2.0,Unknown,6,Yes,Billion,Unknown,Types,Enabled,2025,Operational,Yangtze_Data_Center
+Mega_Waterway_Project_Three_Gorges_Plus,Physical_Infrastructure,Project_Investment,Current_Capacity,Target_Capacity,Annual_Throughput_Increase,Billion_Yuan,Million_Tonnes,Million_Tonnes,Million_Tonnes,2026,Under_Construction,Ministry_Transport
+,,,77.2,168,336,168,Billion_Yuan,Million_Tonnes,Million_Tonnes,Million_Tonnes,2026,Active,Government_Official
+Yangtze_River_General,Operational,Market_Share_Percentage,Annual_Container_Throughput,Network_Length,Navigation_Complexity,Percentage,Million_TEUs,Kilometers,Rating,Ongoing,Operational,Ministry_Transport
+,,,70,7,Unknown,High,Percent,Million_TEUs,km,Complexity_Level,Ongoing,Active,Government_Statistics
+
+DEPENDENT_VARIABLE_DEFINITIONS:
+Database_Size = Volume of stored shipping-related data (vessels, crew, companies, ports, cargo, hydrology)
+Daily_Data_Inflow = Amount of new data added to the system daily
+Number_of_Data_Types = Categories of information tracked (6 main types: vessels, crew, companies, ports, cargo, hydrology)
+Current_Capacity = Existing annual throughput of Three Gorges shipping hub (pre-upgrade)
+Target_Capacity = Projected annual throughput after mega project completion
+Annual_Throughput_Increase = Estimated additional cargo handled post-project completion
+Market_Share_Percentage = Proportion of national inland waterway cargo using Yangtze
+Annual_Container_Throughput = Total containers (TEUs) shipped on Yangtze River annually
+
+INDEPENDENT_VARIABLE_DEFINITIONS:
+Project_Type = Category of infrastructure development (Data Center vs Physical Infrastructure)
+Implementation_Year = Year when project launched or went operational
+Project_Phase = Stage of development (Planning, Construction, Operational, Expansion)
+Infrastructure_Component = Specific element (Ship Lock, Data Hub, Channel, Port)

@@ -1,0 +1,37 @@
+Independent_Variable,Variable_Subcategory,Dependent_Variable_1,Dependent_Variable_2,Dependent_Variable_3,Dependent_Variable_4,Unit_1,Unit_2,Unit_3,Unit_4,Implementation_Status,Time_Period,Data_Source
+Green_Fleet_Initiatives,Vessel_Type_Transition,Electric_Powered_Vessels_Deployed,LNG_Powered_Vessels_Deployed,Hybrid_Vessel_Deployment,High_Emission_Ships_Eliminated,Number_of_Vessels,Number_of_Vessels,Number_of_Vessels,Number_of_Vessels,Pilot_Phase,2020-2024,Ministry_Transport
+,,,Increasing,Increasing,Growing,Accelerating,Vessels,Vessels,Vessels,Vessels,Trials_Active,Ongoing,Government_Official
+Emissions_Reduction_Policies,Regulatory_Framework,Sulfur_Emission_Limits_Implemented,Engine_Efficiency_Standards_Met,Green_Corridor_Miles_Established,Vessel_Compliance_Rate,Parts_Per_Million,Compliance_Percentage,Kilometers,Percentage,Active,Ongoing,Ministry_Environment
+,,,Lower_Limits_Enforced,85-95,Major_Rivers,80-90,ppm,Percent,km,Percent,Enforced,Current,Government_Regulation
+Port_Infrastructure_Upgrades,Shore_Power_Adoption,Shore_Power_Installations_Deployed,Idle_Emission_Reduction,Waste_Reception_Facilities,Bunkering_Efficiency_Improvement,Number_of_Ports,Percentage_Reduction,Number_of_Facilities,Efficiency_Gain,Expanding,2020-2024,Port_Authorities
+,,,Increasing,30-50,Multiple_Ports,10-15,Ports_Count,Percent_Reduction,Facilities_Count,Percent_Gain,Ongoing,Deployment_Phase,Government_Data
+System_Optimization,Logistics_Efficiency,Empty_Run_Reduction,Route_Optimization_Implementation,Multimodal_Integration_Coverage,Real_Time_Tracking_Adoption,Percentage_Reduction,Percentage_Optimized,Percentage_Coverage,Percentage_Adoption,Rapid_Expansion,2022-2024,Digital_Logistics_Reports
+,,,15-25,70-80,Increasing,85-95,Percent,Percent,Percent,Percent,Accelerating,Active,Technology_Providers
+Ecosystem_Protection,Environmental_Programs,Wetland_Restoration_Area,Shoreline_Recovery_Projects,Fish_Passage_Installation,Habitat_Protection_Certification,Square_Kilometers,Number_of_Projects,Number_of_Passages,Certification_Count,Active,Ongoing,Environmental_Ministry
+,,,Increasing,Multiple,Expanding,Growing,km2,Projects,Count,Certifications,Implementation,Continuous,Yangtze_River_Authority
+
+DEPENDENT_VARIABLE_DEFINITIONS:
+Electric_Powered_Vessels_Deployed = Number of fully electric ships in operation or trials
+LNG_Powered_Vessels_Deployed = Number of Liquefied Natural Gas vessels deployed
+Hybrid_Vessel_Deployment = Number of hybrid-powered ships in service
+High_Emission_Ships_Eliminated = Number of non-compliant high-polluting vessels removed from service
+Sulfur_Emission_Limits = Maximum permissible sulfur content in marine fuel (decreasing limits)
+Engine_Efficiency_Standards_Met = Percentage of fleet meeting modern efficiency requirements
+Green_Corridor_Miles_Established = Length of river routes with enhanced environmental protection
+Vessel_Compliance_Rate = Percentage of active vessels meeting environmental standards
+Shore_Power_Installations_Deployed = Number of ports with on-shore electrical connection capability
+Idle_Emission_Reduction = Percentage decrease in emissions while vessels are docked
+Waste_Reception_Facilities = Number of ports with proper waste handling infrastructure
+Empty_Run_Reduction = Percentage decrease in cargo-empty return trips
+Route_Optimization_Implementation = Percentage of fleet using AI-optimized routing
+Multimodal_Integration_Coverage = Percentage of waterways connected to rail/road networks
+Real_Time_Tracking_Adoption = Percentage of fleet using IoT monitoring systems
+Wetland_Restoration_Area = Total square kilometers of restored wetland habitat
+Fish_Passage_Installation = Number of fish-friendly passage systems at locks/dams
+
+INDEPENDENT_VARIABLE_DEFINITIONS:
+Policy_Initiative = Type of environmental regulation or incentive program
+Technology_Type = Category of green technology (Electric, LNG, Hybrid, Efficiency Upgrades)
+Implementation_Phase = Stage of rollout (Pilot, Expansion, Full Deployment)
+Regulatory_Standard = Specific environmental requirement or limit value
+Investment_Level = Amount of funding allocated to green initiatives

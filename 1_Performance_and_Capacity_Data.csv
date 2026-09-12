@@ -1,0 +1,19 @@
+Independent_Variable,Variable_Type,Dependent_Variable_1,Dependent_Variable_2,Dependent_Variable_3,Dependent_Variable_4,Unit_1,Unit_2,Unit_3,Unit_4,Data_Source,Notes
+Year,Time,Cargo_Volume,Container_Throughput,YoY_Growth_Rate,Investment_Level,Billion_Tons,Million_TEUs,Percentage,Billion_Yuan,China_Government_Official,2023 Historic Milestone
+2018,Time,3.74,N/A,N/A,N/A,Billion_Tons,N/A,N/A,N/A,Ministry_Transport,Baseline data
+2022,Time,8.61,N/A,8.5,N/A,Billion_Tons,N/A,Percentage,N/A,Government_Statistics,2023 growth reference
+2023,Time,9.4,Record_High,9.0,N/A,Billion_Tons,Million_TEUs,Percentage,N/A,China_Daily_Official,First 9 billion ton crossing
+2024_Jan_to_May,Period,3.86,130,7.0,78.6,Billion_Tons,Million_TEUs,Percentage,Billion_Yuan,Government_Information_Office,Infrastructure investment surge
+Projected_2024_Annual,Extrapolation,9.24,312,7.5,188.4,Billion_Tons,Million_TEUs,Percentage,Billion_Yuan,Calculated,Based on Jan-May data
+
+DEPENDENT_VARIABLE_DEFINITIONS:
+Cargo_Volume = Total freight transported through inland waterways (measured in billion tons)
+Container_Throughput = Container shipping capacity (measured in million TEUs - Twenty-foot Equivalent Units)
+YoY_Growth_Rate = Year-over-Year percentage change in cargo or container volume
+Investment_Level = Capital expenditure on waterway infrastructure projects (measured in billion yuan)
+
+INDEPENDENT_VARIABLE_DEFINITIONS:
+Year = Calendar year of measurement
+Time_Period = Specific months or years during which data was collected
+Region = Geographic location (e.g., Yangtze River, Pearl River)
+Infrastructure_Status = State of port, channel, or lock development

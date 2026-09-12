@@ -1,0 +1,57 @@
+Independent_Variable,Solution_Category,Solution_Type,Dependent_Variable_1,Dependent_Variable_2,Dependent_Variable_3,Dependent_Variable_4,Unit_1,Unit_2,Unit_3,Unit_4,Implementation_Stage,Estimated_Benefit,Data_Source
+Infrastructure_Modernization,Physical_Infrastructure,Channel_Deepening_and_Widening,Maximum_Vessel_Draft_Capacity,Throughput_Increase_Potential,Construction_Completion_Percentage,Cost_Per_Upgrade,Meters_Draft,Percentage_Increase,Percent_Complete,Million_Yuan,Ongoing,Major,Ministry_Transport
+,,,Increased_From_Historical,20-30,Phased_2020-2030,Variable,Draft_Meters,Percent_Increase,Completion_Percent,Yuan_Per_Project,Active,Infrastructure,Government_Official
+Port_Facility_Modernization,Physical_Infrastructure,Advanced_Port_Systems,Automated_Cargo_Handling_Speed,Vessel_Turnaround_Time_Reduction,Port_Throughput_Increase,Operational_Cost_Reduction,Containers_Per_Hour,Percent_Reduction,Percent_Increase,Percentage_Savings,Expanding,High,Port_Authorities
+,,,Modern_Automation,25-35,20-30,10-15,Containers_Hour,Hours_Reduced,Throughput_Percent,Cost_Percent,Deployment,Significant,Port_Data
+Lock_and_Barrier_Upgrades,Physical_Infrastructure,Lock_Efficiency_Enhancement,Average_Lock_Passage_Time,Vessel_Queue_Time_Reduction,Annual_Throughput_Increase,Congestion_Mitigation_Index,Hours_Per_Passage,Percent_Reduction,Thousand_Tonnes,Rating_Scale,Three_Gorges_Expansion,Critical,Ministry_Transport
+,,,Reduced_from_10h,40-50,100000-180000,Significant,Hours,Percent_Improved,Thousand_Tonnes,Mitigation_Score,2026_Completion,Major_Bottleneck,Government_Official
+Digitalization_and_Intelligent_Systems,Technology_Solutions,AI_Dispatch_and_Routing,Route_Optimization_Efficiency_Gain,Fuel_Consumption_Reduction,Shipping_Cost_Reduction,Planning_Accuracy_Improvement,Percentage,Percentage,Percentage,Percentage,Rapid_Expansion,Moderate,Digital_Tech_Providers
+,,,15-25,8-12,10-18,25-35,Percent_Gain,Percent_Savings,Percent_Savings,Percent_Accuracy,2023-2026,Good,Technology_Reports
+IoT_and_Real_Time_Tracking,Technology_Solutions,Fleet_Monitoring_Systems,Predictive_Maintenance_Accuracy,Equipment_Failure_Reduction,Downtime_Reduction,Safety_Incident_Prevention,Percentage,Percentage,Percentage,Percentage,Expansion,Moderate,IoT_Providers
+,,,80-90,30-40,25-35,35-45,Percent_Accuracy,Percent_Reduction,Percent_Reduction,Percent_Prevention,2024_Onward,Good,Fleet_Management_Data
+Blockchain_Documentation,Technology_Solutions,Digital_Shipping_Documents,Processing_Time_Reduction,Administrative_Error_Reduction,Customs_Clearance_Acceleration,Document_Cost_Savings,Percentage,Percentage,Percentage,Percentage,Pilot_Projects,Moderate,Port_Authority_Pilots
+,,,60-75,85-95,50-60,30-40,Percent_Faster,Percent_Reduction,Percent_Faster,Percent_Savings,Trials_Active,High_Potential,Pilot_Program_Data
+Fleet_Renewal_and_Upgrade,Technology_Solutions,Standardized_Modern_Vessels,Operating_Cost_Reduction,Fuel_Efficiency_Improvement,Cargo_Capacity_Increase,Lifespan_Extension,Percentage,Percentage,Percentage,Years,Ongoing,High,Ministry_Transport
+,,,20-30,30-40,15-25,10-15,Percent_Reduction,Percent_Improvement,Percent_Increase,Years_Added,2020-2035,Significant,Fleet_Studies
+Intermodal_Integration,Logistics_Optimization,Water_Rail_Connection,Total_Shipping_Cost_Reduction,Door_to_Door_Delivery_Time,Truck_Transport_Substitution,Network_Coverage_Expansion,Percentage,Percentage,Percentage,Kilometers,Expanding,High,Logistics_Association
+,,,15-25,20-30,30-40,Increasing,Percent_Savings,Percent_Faster,Percent_Substitution,km_Coverage,Active,Significant,Government_Logistics_Plan
+Water_Road_Integration,Logistics_Optimization,Last_Mile_Road_Connections,Short_Haul_Road_Distance,Local_Distribution_Efficiency,Emissions_Reduction_vs_Full_Road,Local_Employment_Creation,Kilometers,Percentage_Improvement,Percentage_Reduction,Number_of_Jobs,Developing,Moderate,Regional_Data
+,,,Reduced_Significantly,35-45,40-50,Increasing,km_Distance,Percent_Improved,Percent_Reduced,Jobs_Created,Pilot_Regions,Good,Local_Government
+Centralized_Management_Platform,Organizational,Unified_Dispatch_System,Scheduling_Optimization_Efficiency,Resource_Utilization_Rate,Operator_Coordination_Improvement,Data_Accessibility_Index,Percentage,Percentage,Rating_Scale,Rating_Scale,Active,Moderate,Yangtze_Data_Center
+,,,30-40,85-90,Significant,Excellent,Percent_Gain,Percent_Utilization,Coordination_Score,Accessibility_Score,Operational,Good,Government_Official
+Consolidated_Shipping_Operations,Organizational,Shared_Fleet_Services,Idle_Capacity_Reduction,Cargo_Matching_Efficiency,Per_Unit_Shipping_Cost,Operational_Sustainability_Index,Percentage,Percentage,Percentage,Rating_Scale,Expansion,Moderate,Shipping_Company_Data
+,,,40-50,50-60,15-20,Improving,Percent_Reduction,Percent_Matched,Percent_Savings,Sustainability_Score,Growing,Good,Industry_Reports
+
+DEPENDENT_VARIABLE_DEFINITIONS:
+Maximum_Vessel_Draft_Capacity = Maximum water depth vessel can navigate (larger capacity = larger vessels)
+Throughput_Increase_Potential = Percentage increase in cargo volume the infrastructure can handle
+Automated_Cargo_Handling_Speed = Number of containers processed per hour at port
+Vessel_Turnaround_Time = Time vessel spends at port (lower = better efficiency)
+Port_Throughput_Increase = Additional cargo volume port can handle annually
+Operational_Cost_Reduction = Percentage decrease in total operating expenses
+Average_Lock_Passage_Time = Hours required for vessel to pass through lock system
+Annual_Throughput_Increase = Total additional tonnes that can be transported annually
+Route_Optimization_Efficiency_Gain = Fuel and time saved through AI routing
+Fuel_Consumption_Reduction = Percentage decrease in fuel usage per ton-km
+Shipping_Cost_Reduction = Percentage decrease in per-unit shipping cost
+Planning_Accuracy_Improvement = Percentage increase in predictive scheduling accuracy
+Predictive_Maintenance_Accuracy = Percentage of equipment issues predicted before failure
+Equipment_Failure_Reduction = Percentage decrease in breakdowns
+Downtime_Reduction = Percentage decrease in out-of-service time
+Safety_Incident_Prevention = Percentage reduction in accidents or safety violations
+Processing_Time_Reduction = Time saved in document handling and customs
+Administrative_Error_Reduction = Percentage decrease in documentation mistakes
+Document_Cost_Savings = Percentage reduction in paperwork administrative costs
+Operating_Cost_Reduction = Total percentage savings in vessel operation expenses
+Total_Shipping_Cost_Reduction = Overall reduction including all logistics components
+Door_to_Door_Delivery_Time = Total time from origin to final destination
+Truck_Transport_Substitution = Percentage of cargo switched from road to water
+Network_Coverage_Expansion = Additional kilometers of integrated transport network
+
+INDEPENDENT_VARIABLE_DEFINITIONS:
+Solution_Category = Major classification (Infrastructure, Technology, Organizational, Logistics)
+Solution_Type = Specific solution implemented
+Implementation_Stage = Phase of deployment (Pilot, Expansion, Full Deployment, Ongoing)
+Investment_Level = Capital expenditure for solution implementation
+Technology_Readiness_Level = Maturity stage of the technology
+Regional_Scope = Geographic area of implementation

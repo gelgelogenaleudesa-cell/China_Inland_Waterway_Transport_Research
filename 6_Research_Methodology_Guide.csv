@@ -1,0 +1,24 @@
+Research_Dimension,Research_Question,Independent_Variable_Category,Dependent_Variable_Category,Data_Collection_Method,Time_Period_Analyzed,Primary_Source,Sample_Size_Indicator,Reliability_Level,Notes_for_Analysis
+Performance_and_Capacity,What is the current capacity utilization of Chinese inland waterways?,Time_Period (Year/Month),Cargo_Volume;Container_Throughput;Growth_Rate,Government_Official_Statistics,2018-2024,Ministry_of_Transport;China_Daily,National_Level,High,Use for trend analysis and forecasting
+Infrastructure_Investment,How much capital is being invested in waterway infrastructure and what is the impact?,Investment_Amount;Project_Type;Phase_of_Development,Capacity_Increase;Throughput_Enhancement;Network_Expansion,Government_Budget_Reports;Project_Announcements,2020-2035_Projection,Government_Official;Ministry_Transport,Multiple_Projects,High,Critical for understanding modernization trajectory
+Fleet_Modernization,What is the progress of fleet standardization and how does it affect efficiency?,Standardization_Actions;Technology_Adoption;Fleet_Age,Carbon_Intensity;Energy_Efficiency;Operating_Costs;Safety_Rating,Ministry_Statistics;Industry_Studies;Academic_Research,2003-2024_Historical;2024-2035_Projected,Government_Official;ICCT_Research,140000_Vessels,High,Essential for environmental and efficiency assessment
+Environmental_Sustainability,What environmental improvements result from green initiatives?,Policy_Initiative;Technology_Type;Implementation_Phase,Emissions_Reduction;Green_Vessel_Adoption;Ecosystem_Protection,Government_Environmental_Reports;Port_Authority_Data;Academic_Studies,2020-2024_Active;2024-2060_Target,Ministry_Environment;Yangtze_River_Authority,Multiple_Programs,Medium_to_High,Focus on emissions per ton-km and ecosystem metrics
+Optimization_Solutions,Which solutions provide the greatest efficiency and cost improvements?,Solution_Type;Implementation_Level;Technology_Maturity,Cost_Reduction;Time_Savings;Throughput_Increase;Safety_Improvement,Case_Studies;Industry_Reports;Pilot_Program_Data;Technology_Provider_Data,2020-2024_Demonstrated;2024-2030_Projected,Port_Authorities;Technology_Providers;Government_Plans,Pilot_to_Full_Scale,Medium,Use for ROI analysis and solution prioritization
+
+METHODOLOGY_NOTES:
+"Independent Variable" = The factor being manipulated or observed that causes change (e.g., time, policy, technology type, investment amount)
+"Dependent Variable" = The outcome or result being measured that changes in response to the independent variable (e.g., cargo volume, efficiency gains, cost reduction)
+
+DATA_QUALITY_INDICATORS:
+- High Reliability: Government official sources, peer-reviewed research
+- Medium Reliability: Industry reports, pilot program data, port authority records
+- Lower Reliability: Projections, estimates, extrapolations
+
+RECOMMENDED_ANALYSIS_APPROACHES:
+1. Time_Series_Analysis for Performance_and_Capacity data to identify trends and growth patterns
+2. Correlation_Analysis between Investment_Level and Capacity_Increase metrics
+3. Cost_Benefit_Analysis for each Optimization_Solution type
+4. Comparative_Analysis of standardized vs non-standardized fleet efficiency
+5. Projection_Models for 2035 targets based on historical growth rates
+6. Environmental_Impact_Assessment using emissions reduction as primary metric
+7. ROI_Calculation for each major infrastructure project

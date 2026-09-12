@@ -1,0 +1,29 @@
+Independent_Variable,Variable_Subcategory,Dependent_Variable_1,Dependent_Variable_2,Dependent_Variable_3,Dependent_Variable_4,Unit_1,Unit_2,Unit_3,Unit_4,Time_Period,Cumulative_Impact,Data_Source
+Fleet_Standardization_Program,Ship_Elimination,Non_Standard_Vessels_Removed,Standardization_Projects_Completed,Safety_Improvement_Index,Cost_Reduction_Percentage,Number_of_Ships,Number_of_Projects,Rating_Scale,Percentage,2003-2013,Major,Ministry_Transport
+,,,47000,Multiple,Significant,15-25,Ships,Projects,Index_Score,Reduction,2003-2013,Completed,Government_Official
+Current_Fleet_Status,Modernization_Level,Total_Active_Vessels,Percentage_Standardized,Average_Vessel_Tonnage,Fleet_Efficiency_Rating,Number_of_Vessels,Percentage,Tonnes,Rating_Scale,2023-2024,Ongoing,Ministry_Transport
+,,,140000,85-90,Higher_Than_Pre2003,Improved,Vessels,Percent,Average_Tonnes,Efficiency_Level,Current,Improving,Government_Statistics
+Efficiency_Metrics,Performance_Indicators,Carbon_Intensity_gCO2_per_Ton_km,Energy_Efficiency_vs_Road_Transport,Fuel_Consumption_per_Ton_km,Emissions_Reduction_Rate,gCO2_Equivalent,Percentage_Better,Units_Not_Specified,Percentage_Annual,2020-2024,Accelerating,International_Council_Clean_Transportation
+,,,Declining_Trend,30-40,Declining,3-5,gCO2_Per_Ton_km,Percent_Better,Various_Metrics,Percent_Reduction,2024,Continuous,ICCT_Report
+2035_Strategic_Goals,Future_Targets,Target_Waterway_Freight_Share,Emergency_Response_Time_Target,Modernization_Completion,Fleet_Renewal_Target,Percentage,Minutes,Completion_Status,Percentage,Target_Year,Vision,Ministry_Transport
+,,,9,45,Fully_Modern_System,Complete_Renewal,Percent,Minutes,Yes_No,Percent,2035,Long_Term_Strategy,Five_Year_Plans
+
+DEPENDENT_VARIABLE_DEFINITIONS:
+Non_Standard_Vessels_Removed = Number of non-compliant ships retired or scrapped
+Safety_Improvement_Index = Measure of accident reduction and safety compliance improvement
+Cost_Reduction_Percentage = Decline in operational costs due to standardization
+Total_Active_Vessels = Total number of licensed commercial vessels operating
+Percentage_Standardized = Proportion of fleet meeting national standards
+Average_Vessel_Tonnage = Mean cargo capacity of the fleet (increasing over time)
+Fleet_Efficiency_Rating = Overall performance score for fleet operations
+Carbon_Intensity = Emissions per unit of cargo transported
+Energy_Efficiency = Relative efficiency compared to alternative transport modes
+Fuel_Consumption = Amount of fuel required per unit of cargo
+Emissions_Reduction_Rate = Annual percentage decrease in greenhouse gas emissions
+
+INDEPENDENT_VARIABLE_DEFINITIONS:
+Standardization_Program_Phase = Period during which standardization initiatives occurred
+Modernization_Level = Degree to which fleet has adopted modern technology
+Vessel_Type = Category of ship (standardized vs non-standard)
+Technology_Adoption = Implementation of AI, IoT, automation systems
+Policy_Incentive = Government subsidies or regulations driving change
